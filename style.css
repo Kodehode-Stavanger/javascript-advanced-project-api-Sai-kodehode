@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* nav bar */
+#nav-bar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #232f3e;
+  color: #f0ecec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* nav elements */
+#nav-elements {
+  display: flex;
+  justify-content: space-around;
+}
+/* nav links */
+#nav-elements li {
+  list-style-type: none;
+  cursor: pointer;
+}
+/* logo name */
+#logo:hover {
+  border: none;
+}
+/* nav-links */
+.nav-styling {
+  padding: 20px;
+  margin: 10px;
+}
+/* nav-links on hover */
+.nav-styling:hover {
+  border-bottom: 2px solid wheat;
+}
+/* section to get data */
+section {
+  width: 100vw;
+}
+/* div container to get list */
+#products-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 50px;
+  margin-top: 60px;
+  padding: 15px 0;
+}
+
+/* individual product div */
+.product-div-class {
+  width: 360px;
+  height: 360px;
+  line-height: 30px;
+  padding: 20px 10px 0px 10px;
+}
+.product-div-class:hover {
+  background-color: #f0f0f0;
+}
+
+/* product image */
+.product-image {
+  margin: 0 auto;
+  display: block;
+  width: 160px;
+  height: 160px;
+}
+/* product title */
+.title-class {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+/* product price */
+.product-price {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* product review */
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* product rate */
+#product-rate {
+  width: fit-content;
+  padding: 1.5px 7px;
+  margin-right: 10px;
+  background-color: rgb(151, 203, 27);
+}
