@@ -100,4 +100,17 @@ section {
   padding: 1.5px 7px;
   margin-right: 10px;
   background-color: rgb(151, 203, 27);
+  margin-bottom: 20px;
+}
+
+.addtocart {
+  display: block;
+  padding: 10px 50px;
+  margin: 0 auto;
+  background-color: #8ac8d2;
+  font-size: 20px;
+  color: #0a1803;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+  border-radius: 10px;
 }

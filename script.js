@@ -84,13 +84,18 @@ function render(data) {
     // Creating product rating count element
     const productRatingCount = document.createElement("p");
     productRatingCount.textContent = `(${element.rating.count})`;
+    // Creating add to cart button
+    const addToCart = document.createElement("button");
+    addToCart.textContent = "Add to Cart";
+    addToCart.classList.add("addtocart");
     // Appending elements to div
     productReviewDiv.append(productRate, productRatingCount);
     ProductDiv.append(
       productImage,
       productTitle,
       productPrice,
-      productReviewDiv
+      productReviewDiv,
+      addToCart
     );
     // appending div to productlist
     productsList.append(ProductDiv);
