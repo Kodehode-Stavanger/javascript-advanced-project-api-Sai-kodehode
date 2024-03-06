@@ -59,8 +59,8 @@ section {
 
 /* individual product div */
 .product-div-class {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 420px;
   line-height: 30px;
   padding: 20px 10px 0px 10px;
   background-color: #f0f0f0;
